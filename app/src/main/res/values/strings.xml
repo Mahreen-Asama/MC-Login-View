@@ -2,6 +2,6 @@
     <string name="app_name">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="req_username">Enter Username</string>
-    <string name="req_pass">Enter Passowrd</string>
+    <string name="req_username">Please Enter Username</string>
+    <string name="req_pass">Please Enter Passowrd</string>
 </resources>

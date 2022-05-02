@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/bism"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="70dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -21,9 +21,9 @@
 
     <Button
         android:id="@+id/cancel"
-        android:layout_width="204dp"
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/teal_200"
         android:text="Cancel"
         android:textSize="24dp"
@@ -40,7 +40,7 @@
         android:ems="10"
         android:hint="@string/req_pass"
         android:inputType="textPassword"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -48,9 +48,9 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="204dp"
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/teal_200"
         android:text="Login"
@@ -82,17 +82,7 @@
         app:layout_constraintEnd_toStartOf="@+id/enter_username"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/users" />
-
-    <ImageView
-        android:id="@+id/users"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bism"
-        app:srcCompat="@drawable/login" />
+        app:layout_constraintTop_toBottomOf="@+id/bism" />
 
     <EditText
         android:id="@+id/enter_username"
@@ -102,7 +92,7 @@
         android:ems="10"
         android:hint="@string/req_username"
         android:inputType="textPersonName"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
