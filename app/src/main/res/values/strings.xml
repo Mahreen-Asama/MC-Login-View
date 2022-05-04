@@ -4,4 +4,6 @@
     <string name="password">Password</string>
     <string name="req_username">Please Enter Username</string>
     <string name="req_pass">Please Enter Passowrd</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
 </resources>
