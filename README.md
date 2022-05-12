@@ -1,2 +1,2 @@
 # MC-Login-View
-Login screen for any app, android studio
+Login screen/view for any app, android studio
