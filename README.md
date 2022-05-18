@@ -1,5 +1,5 @@
 # MC-Login-View
-Login screen/view for any app, android studio
+Login screen/view/layout for any app, android studio
 
 ## Portrait View
 ![login-portrait](https://user-images.githubusercontent.com/79749919/169028118-8a2564fd-f51b-49e1-848a-d45b0db11799.png)
